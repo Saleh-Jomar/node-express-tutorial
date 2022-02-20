@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "nodeDevStart": "nodemon node-app.js",
-    "expressDevStart": "nodemon express-app.js"
+    "node-dev": "nodemon node-app.js",
+    "express-dev": "nodemon express-app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
